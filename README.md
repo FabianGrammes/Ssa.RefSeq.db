@@ -23,6 +23,9 @@ install_github("FabianGrammes/Ssa.RefSeq.db")
 	 * **get.genes**: Returns gene names and more
 	 * **get.GO**: Returns Gene Ontlogy
 	 * **get.gtf**: Returns position on the genome
+	 * **get.id**: Links NCBI Ids to cigene gene ids
+	  * **get.gtf**: Returns position on the genome
+	 
 
 
 ---
@@ -68,4 +71,10 @@ Robles, M. (2005). Blast2GO: a universal tool for annotation,
 visualization and analysis in functional genomics
 research. Bioinformatics, 21(18), 3674–3676.
 
+---
+## Changelog
+
+### v1.1
+
+- added the get.id function
 
