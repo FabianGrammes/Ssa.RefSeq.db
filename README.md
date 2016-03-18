@@ -78,3 +78,7 @@ research. Bioinformatics, 21(18), 3674–3676.
 
 - added the get.id function
 
+### v1.2
+
+- cleaned the gene names
+- added transcript length column to gene data
