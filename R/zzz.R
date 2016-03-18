@@ -8,5 +8,5 @@
     #drv <- dbDriver("SQLite")
     .datacache$con <- dbConnect(dbDriver("SQLite"),
                                 dbname = file.path(.datacache$db.wd,
-                                "Ssa-RefSeq.db"))
+                                "Ssa-RefSeq.sqlite"))
 }
