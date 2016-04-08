@@ -16,14 +16,14 @@ FROM GENES gen ORDER BY gen.gene_id", sep =" ")
 SELECT
 gen.gene_id, gen.gene
 FROM GENES gen
-WHERE gen.gene IN", x2, "GROUP BY gen.gene", sep = " ")
+WHERE gen.gene IN", x2, "ORDER BY gen.gene", sep = " ")
             }
     else if(id.type == "transcript"){
                         query <- paste("
 SELECT
 gen.gene_id, gen.transcript_id
 FROM GENES gen
-WHERE gen.transcript_id IN", x2, "GROUP BY gen.gene_id", sep = " ")
+WHERE gen.transcript_id IN", x2, "ORDER BY gen.gene_id", sep = " ")
                     }
     else if(id.type == "protein"){
                    query <- paste("
